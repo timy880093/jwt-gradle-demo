@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/default
+    username: root
+    password: 1qaz2wsx
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+
+# security
+jwt:
+  secret: JP8sIIjrGsgacYxucwRBro7u4DJ8G5gbBRrJaaZTBGaaUiGGI9L57YFZSDarZoQF
+  expiration: 24
+
