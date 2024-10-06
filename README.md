@@ -1,4 +1,21 @@
 
+## Spring Boot, Spring Security, PostgreSQL: JWT Authentication
+- JDK 8
+- Spring Boot 2.7.18
+- MySQL
+- JSON Web Tokens (JWT)
+- Gradle
+
+## Prepare
+1. run database container
+    ```shell
+    docker compose up -d
+    ```
+2. run the project
+    ```shell
+    ./gradlew bootRun
+    ```
+
 ## Reference
 - [Spring Boot, Spring Security, PostgreSQL: JWT Authentication](https://www.bezkoder.com/spring-boot-security-postgresql-jwt-authentication/)
 - [spring-boot-2.7.10-jwt-security-maven](https://github.com/MartinKun/spring-boot-2.7.10-jwt-security/tree/main/src/main)
